@@ -4,11 +4,39 @@
 	<title>Contato</title>
 	<meta charset="utf-8">
 	<style type="text/css">
+
 		.nav{
 font-size: 25px;
 background-color: #f8f9fa;
+color:#737373;
+
+		}
+
+		.caixa{
+
+			border:1px solid black;
+			margin: 50px;
+			float: left;
+			
 
 
+		}
+
+		#contato{
+			border:1px solid black;
+			float:left;
+			padding: 5px;
+
+		}
+		a{
+			text-decoration: none;
+			padding: 12px;
+			color:#737373;
+
+			
+		}
+		a:hover{
+			color: #191919;
 		}
 
 	</style>
@@ -16,19 +44,19 @@ background-color: #f8f9fa;
 <body>
 
 <div class="nav">
-		<a href="index.html">
-		<img src="imagens/logo.png"> 
-	</a>&nbsp; &nbsp;
-<a href="index.html">Home</a>  &nbsp; &nbsp; 
-<a href="servicos.html">Serviços</a> &nbsp; &nbsp;  
-<a href="Sobre.html">Sobre Nós</a> &nbsp; &nbsp; 
-Contato
+		
+	<img src="imagens/logo.png"> 
+	<a href="index.html">Home</a> 
+	<a href="servicos.html">Serviços</a>  
+	<a href="Sobre.html">Sobre Nós</a> 
+	<a href="contato.html">Contato</a>
 
 	</div>
 
-	<div>
-		Marque uma<br/> reunião:<br/><br/>
-		<form>
+	<div class="caixa">
+		
+		<form >
+			<font size="5" >Marque uma<br/> reunião:<br/><br/></font>
 			Nome<br/><br/>
 			<input type="text" ><br/><br/>
 			Email<br/><br/>
@@ -42,12 +70,25 @@ Contato
 				<option>Outro</option>
 			</select> <br/><br/>
 
-			<input type="button" value="Enviar">
+			<button type="submit">Enviar</button>
+			
+
 
 
 		</form>
 
 	</div>
+
+	<div class="caixa">
+			<font size="5" >Contate-nos!<br><br> </font>
+			telefone:1234-5678<br/>
+			email:email@gmail.com
+		</div>
+
+		<div class="caixa">
+			<h1>MAPA</h1>
+			
+		</div>
 
 </body>
 </html>
